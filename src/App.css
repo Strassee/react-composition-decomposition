@@ -1,38 +1,155 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-content {
   display: flex;
   flex-direction: column;
+  height: 100%;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main-center {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-bottom {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 600px;
+  max-height: 250px;
+
+}
+
+.flexitems {
+  text-align: center;
+  margin: 5px;
+}
+
+.flexitemsbottom {
+  text-align: center;
+  margin: 10px 0px;
+  width: 190px;
+  height: 100px;
+  line-height: 100px;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  background-color:#e5ff00;
+  width: 600px;
+  height: 170px;
+  line-height: 20px;
+  text-align: left;
+}
+
+.newsitem {
+  display: flex;
+  flex-direction: row;
+  background-color:#ffba67;
+  font-size: 12px;
+  width: 400px;
+  height: 30px;
+  align-items: center;
+  margin: 5px 10px;
+  text-align: left;
+}
+
+.imgnews {
+  width: 20px;
+  height: 20px;
+}
+
+.imgplay {
+  width: 20px;
+  height: 20px;
+}
+
+.textnews {
+  padding-top: 0px;
+}
+
+.exchange {
+  background-color:#c98acb;
+  width: 600px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.logo {
+  background-color:#7a5be7;
+  width: 120px;
+  height: 100px;
+  line-height: 100px;
+}
+
+.search {
+  background-color:#00ffff;
+  width: 600px;
+  height: 100px;
+  line-height: 100px;
+}
+
+.banner {
+  background-color:#c7c0e0;
+  width: 600px;
+  height: 100px;
+  line-height: 100px;
+
+}
+
+.weather {
+  background-color:#e085a2;
+}
+
+.visited {
+  background-color:#9ae972;
+  text-align: left;
+  position: relative;
+  line-height: 20px;
+}
+
+.pagevisited {
+  background-color:#72cbe9;
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+  margin: 3px;
+}
+
+.titlevisited {
+  font-weight: bold;
+}
+
+.maps {
+  background-color:#72c7e9;
+}
+
+.tvprogram {
+  background-color:#e9c572;
+  text-align: left;
+  line-height: 20px;
+}
+
+.tvshow {
+  display: flex;
+  flex-direction: row;
+  background-color:#72cbe9;
+  font-size: 12px;
+  height: 30px;
+  margin: 3px;
+  align-items: center;
+}
+
+.tvchannel {
+  color: #9e9e9e;
+}
+
+.ether {
+  background-color:#e9c572;
+  text-align: left;
+  line-height: 20px;
 }
